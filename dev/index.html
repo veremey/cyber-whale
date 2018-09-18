@@ -32,7 +32,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
           integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main1.css">
-    <link rel="stylesheet" href="static/css/main.css">
 </head>
 <body id="page-top">
 
@@ -44,15 +43,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav" role="navigation">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/Logo1.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarResponsive" >
+            <ul class="navbar-nav ml-auto" >
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
                 </li>
@@ -80,14 +79,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="mywrap overflow-hidden relative" id="home">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-12 text-intro">CYBER WHALE</div>
-            <div class="col-lg-12 text-lead mod-mb40">We create and customize digital solutions to scale your business.</div>
+            <h1 role="heading" aria-level="1" class="col-lg-12 text-intro">CYBER WHALE</h1>
+            <h2 class="col-lg-12 text-lead mod-mb40">We create and customize digital solutions to scale your business.</h2>
             <div class="col-lg-12">
                 <a class="btn btn-lg btn-primary mybtn js-scroll-trigger" role="button" href="#contact">Let`s talk</a>
             </div>
             <div class="col-lg-12 mouse">
                 <a href="#mission" class="js-scroll-trigger scroll-text">
-                    <img src="img/mouse.png" alt="scroll">
+                    <img src="img/mouse.png" alt="scroll" aria-hidden="true">
                     <br>
                     <span class="col-lg-12 text-white">scroll down</span>
                 </a>
@@ -100,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="mission">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-12 intro"><p>Our mission</p></div>
+            <h2 role="heading" aria-level="2" class="col-lg-12 intro">Our mission</h2>
             <div class="col-lg-12 lead"><p>Cyber Whale operates to bring you custom digital sevices with continuous
                 delivery and all-parts-matter user fulfillment strategy.<br> As a foundation for this, we are focused on
                 3 success "whales":</p></div>
@@ -111,24 +110,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="card mb-4">
                 <div class="card-body">
                     <div class="card-title text-center">
-                        <p class="my-0">Digital Whale</p>
-                        <img src="img/mission-1.png" class="mission-img" alt="mission-1">
+                        <h3 role="heading" aria-level="3" class="my-0">Digital Whale</h3>
+                        <img src="img/mission-1.png" class="mission-img" alt="Digital Whale picture">
                     </div>
                 </div>
             </div>
             <div class="card mb-4">
                 <div class="card-body">
                     <div class="card-title text-center">
-                        <p class="my-0">Agile Whale</p>
-                        <img src="img/mission-2.png" class="mission-img" alt="mission-2">
+                        <h3 role="heading" aria-level="3" class="my-0">Agile Whale</h3>
+                        <img src="img/mission-2.png" class="mission-img" alt="Agile Whale picture">
                     </div>
                 </div>
             </div>
             <div class="card mb-4">
                 <div class="card-body">
                     <div class="card-title text-center">
-                        <p class="my-0">Intelligent Whale</p>
-                        <img src="img/mission-3.png" class="mission-img" alt="mission-3 ">
+                        <h3 role="heading" aria-level="3" class="my-0">Intelligent Whale</h3>
+                        <img src="img/mission-3.png" class="mission-img" alt="Intelligent Whale picture">
                     </div>
                 </div>
             </div>
@@ -141,7 +140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="cwsolutions" class="solutions-wrap">
     <div class="container text-center">
         <div class="row solutions-row">
-            <div class="col-lg-12 intro"><p>CW Solutions</p></div>
+            <h2 class="col-lg-12 intro" role="heading" aria-level="2">CW Solutions</h2>
             <div class="col-lg-12 lead"><p>Using a combination of best practices like Agile and contionous delivery, we ship flexible, efficiient, secure <br> solutions for web, mobile, enterprise domains.</p>
                 <hr>
             </div>
@@ -153,72 +152,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/solutions/sol-1.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Airport managment system</strong>
+                    <img src="img/solutions/sol-1.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Airport managment system</h3>
                         <span class="text-sol text-muted"> Aviation industry has shown a strong preference for out-of-box solutions equiped with domain business logic...</span>
                         <a href="./inner.html" class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/solutions/sol-2.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Restaurant Review System</strong>
+                    <img src="img/solutions/sol-2.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Restaurant Review System</h3>
                         <span class="text-sol text-muted"> We help invidual restaurants and restaurant networks create discount systems, review and feedback systems. </span>
                         <a href="./inner.html"   class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
 
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/solutions/sol-3.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Wordpress Universal Builder</strong>
+                    <img src="img/solutions/sol-3.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Wordpress Universal Builder</h3>
                         <span class="text-sol text-muted"> E-commerce needs? We created a universal Wordpress builder to facilitate the process or building e-stores out of box. </span>
                         <a  href="./inner.html" class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/solutions/sol-4.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">CW Intelligent DB toolkit</strong>
+                    <img src="img/solutions/sol-4.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">CW Intelligent DB toolkit</h3>
                         <span class="text-sol text-muted">Business Intelligence reporting is crucial for all levels of an organisation and considering this</span><br>
                         <a  href="./inner.html" class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/solutions/sol-5.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">CW Xandra BI Toolkit:</strong>
+                    <img src="img/solutions/sol-5.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">CW Xandra BI Toolkit:</h3>
                         <span class="text-sol text-muted">In order to add intelligence to the data  processing, we created a BI toolkit powered by machine learning algoritnms. </span>
                         <a href="./inner.html" class="btn cw-btn-flat"  class="btn-link" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/solutions/sol-6.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">CW Parser Toolkits</strong>
+                    <img src="img/solutions/sol-6.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">CW Parser Toolkits</h3>
                         <span class="text-sol text-muted">We create and make use of parser toolkits to  collect economic, population, product data...</span>
                         <a  href="./inner.html"  class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,7 +238,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="digitalservices">
     <div class="container text-center">
         <div class="row solutions-row">
-            <div class="col-lg-12 intro"><p>Digital and Creative </p></div>
+            <h2 class="col-lg-12 intro">Digital and Creative</h2>
             <div class="col-lg-12 lead"><p>Using a combination of best practices like Agile and continous delivery, we ship flexible, efficient, secure <br> solutions for web, mobile, enterprise domains.</p>
                 <hr>
             </div>
@@ -251,22 +248,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/digitalservices/1.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Native and Hybrid mobile apps</strong>
+                    <img src="img/digitalservices/1.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Native and Hybrid mobile apps</h3>
                         <span class="text-sol text-muted"> We build native and bybrid cross-platform iOS and Android applications for your business.</span>
                         <a href="./inner.html" class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/digitalservices/2.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Web: Frontend and backend</strong>
+                    <img src="img/digitalservices/2.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Web: Frontend and backend</h3>
                         <span class="text-sol text-muted">Rich Web applications built with Angular, Node, PHP, Python,ASP.NET. Lightweight cross-platform solutions.</span>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -275,22 +272,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/digitalservices/3.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Creative services: UI/UX</strong>
+                    <img src="img/digitalservices/3.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Creative services: UI/UX</h3>
                         <span class="text-sol text-muted"> We build tidy UI for mobile and web after doing in-depth UX research. </span> <br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/digitalservices/4.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Enterprise software</strong>
+                    <img src="img/digitalservices/4.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Enterprise software</h3>
                         <span class="text-sol text-muted">Enterprise software solutions: .NET, Java, Scala - desktop and web applications for your corporate needs. </span>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -299,22 +296,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/digitalservices/5.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Business Intelligence tools</strong>
+                    <img src="img/digitalservices/5.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Business Intelligence tools</h3>
                         <span class="text-sol text-muted">We create business intelligence tools powered by Machine Learning algorithms.</span> <br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/digitalservices/6.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Data analysis</strong>
+                    <img src="img/digitalservices/6.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Data analysis</h3>
                         <span class="text-sol text-muted">We search, scrap, extract, analyse and help you visualize your business data.</span> <br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -336,7 +333,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="CWIntelligence"  class="solutions-wrap">
     <div class="container text-center">
         <div class="row solutions-row">
-            <div class="col-lg-12 intro"><p class=" mod-mb20">CW Intelligence <br> <small>AI apps: Machine Learning</small> </p></div>
+            <h2 role="heading" aria-level="2" class="col-lg-12 intro mod-mb20">CW Intelligence <br> <small>AI apps: Machine Learning</small></h2>
             <div class="col-lg-12 lead"><p>We build business solutions by using deep learning and machine learning algorithms..</p>
                 <hr>
             </div>
@@ -346,22 +343,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/01.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Helpdesk chatbots</strong>
+                    <img src="img/cwintelligence/01.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Helpdesk chatbots</h3>
                         <span class="text-sol text-muted"> Easily trainable, evolving and deployed as API. Customized for your needs... </span><br>
                         <a href="./inner.html" class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/02.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Fraud detection</strong>
+                    <img src="img/cwintelligence/02.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Fraud detection</h3>
                         <span class="text-sol text-muted">Odd-one-out detection and risk assessment </span><br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -370,22 +367,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/03.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Recommender systems</strong>
+                    <img src="img/cwintelligence/03.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Recommender systems</h3>
                         <span class="text-sol text-muted"> E-commerce and B2C recommender system models... </span><br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/04.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">User behaviour models</strong>
+                    <img src="img/cwintelligence/04.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">User behaviour models</h3>
                         <span class="text-sol text-muted">Fine tuned churn models, time series based next operation </span><br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -394,22 +391,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/05.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Object recognition</strong>
+                    <img src="img/cwintelligence/05.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Object recognition</h3>
                         <span class="text-sol text-muted">Classification, Labelling, face recognition</span><br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/06.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Projection and decision making</strong>
+                    <img src="img/cwintelligence/06.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Projection and decision making</h3>
                         <span class="text-sol text-muted">Viable machine learned forecasts, machine assisted decision making</span><br>
                         <a  href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -428,22 +425,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/07.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Dashboards</strong>
+                    <img src="img/cwintelligence/07.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Dashboards</h3>
                         <span class="text-sol text-muted"> Colorful, meaningful and relevant KPI dashboards and scorecards </span><br>
                         <a href="./inner.html" class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/08.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Advanced Analytics and Beyond</strong>
+                    <img src="img/cwintelligence/08.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Advanced Analytics and Beyond</h3>
                         <span class="text-sol text-muted">Multidimensional KPI indices, streamlined from the past into present and future. </span><br>
                         <a href="./inner.html"  class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -452,22 +449,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row justify-content-md-between">
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/09.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">Domain driven insights</strong>
+                    <img src="img/cwintelligence/09.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">Domain driven insights</h3>
                         <span class="text-sol text-muted"> We carefully evaluate BI opportunities to reflect the performance of your business considering the domain </span>
                         <a href="./inner.html" class="btn cw-btn-flat"><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 ">
                 <div class="media pt-3 blocks-sol">
-                    <img src="img/cwintelligence/10.png" alt="" class="mr-2 img-sol">
-                    <p class="media-body pb-3 mb-0 lh-125">
-                        <strong class="d-block zag">All-in</strong>
+                    <img src="img/cwintelligence/10.png" aria-hidden="true" alt="" class="mr-2 img-sol">
+                    <div class="media-body pb-3 mb-0 lh-125">
+                        <h3 role="heading" aria-level="3" class="d-block zag">All-in</h3>
                         <span class="text-sol text-muted">Complete business data management: automated and manual.</span><br>
                         <a  href="./inner.html" class="btn cw-btn-flat" ><span class="text-green">Read More...</span></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -489,7 +486,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container form">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p class="intro text-center">Contact us</p>
+            <h2 role="heading" aria-level="2" class="intro text-center">Contact us</h2>
             <p class="text-center text-sol">With no further hesitation, let us know what's your digital need</p>
           </div>
         </div>

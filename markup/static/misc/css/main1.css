@@ -6,6 +6,9 @@ body{
  font-family: 'Open Sans' , sans-serif;
 }
 
+*:focus {
+  outline: 1px solid #868e96;
+}
 .cw-btn-flat {
   background: none;
   padding: 0;
@@ -78,6 +81,10 @@ nav{
   text-transform: uppercase;
   color: white;
 /*  background-color: #1dc869;*/
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: 2px solid #dde8f3;
 }
 
 .fa-bars{
@@ -312,6 +319,7 @@ nav{
   font-weight: 400;
   font-size: 48px;
   line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .lead{
